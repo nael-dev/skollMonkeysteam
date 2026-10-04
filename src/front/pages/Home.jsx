@@ -1,6 +1,7 @@
 import React, { useEffect } from "react"
 import rigoImageUrl from "../assets/img/rigo-baby.jpg";
 import useGlobalReducer from "../hooks/useGlobalReducer.jsx";
+import { TeamCarousel } from "../components/teamCarousel.jsx";
 
 export const Home = () => {
 
@@ -33,20 +34,61 @@ export const Home = () => {
 	}, [])
 
 	return (
-		<div className="text-center mt-5">
-			<h1 className="display-4">Hello Rigo!!</h1>
-			<p className="lead">
-				<img src={rigoImageUrl} className="img-fluid rounded-circle mb-3" alt="Rigo Baby" />
-			</p>
-			<div className="alert alert-info">
-				{store.message ? (
-					<span>{store.message}</span>
-				) : (
-					<span className="text-danger">
-						Loading message from the backend (make sure your python 🐍 backend is running)...
-					</span>
-				)}
-			</div>
-		</div>
-	);
+		<div className="home-page">
+
+        {/* INTRO DEL EQUIPO */}
+        <section className="team-intro">
+            <h1>Skoll Monkeys 🐒</h1>
+
+            <p>
+                Somos un equipo apasionado por las carreras de obstáculos
+                (OCR), el entrenamiento y los retos que nos ponen a prueba.
+            </p>
+
+            <p>
+                Nos enfrentamos a cada carrera como una auténtica tribu
+                vikinga: <strong>superando obstáculos, ayudándonos entre
+                nosotros y disfrutando cada desafío juntos.</strong>
+            </p>
+
+            <p>
+                Barro, agua, muros, cuerdas o kilómetros de carrera...
+                <strong> no importa el obstáculo, lo importante es
+                cruzarlo juntos.</strong>
+            </p>
+
+            <div className="team-values">
+                <span>💪 Fuerza</span>
+                <span>🤝 Compañerismo</span>
+                <span>🏆 Superación</span>
+                <span>🔥 Diversión</span>
+            </div>
+        </section>
+
+
+        {/* CARRUSEL DEL EQUIPO */}
+        <section className="team-carousel-section">
+            <h2>Nuestro equipo</h2>
+
+            <TeamCarousel />
+        </section>
+
+
+        {/* FUTURAS SECCIONES */}
+        <section>
+            Parte 2
+        </section>
+
+        <section>
+            Parte 3
+        </section>
+
+        <section>
+            Parte 4
+        </section>
+
+    </div>
+);
+
+
 }; 
