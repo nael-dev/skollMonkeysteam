@@ -38,7 +38,7 @@ export const Home = () => {
 
         {/* INTRO DEL EQUIPO */}
         <section className="team-intro">
-            <h1>Skoll Monkeys 🐒</h1>
+            <h1>Sköl Monkeys OCR 🐒</h1>
 
             <p>
                 Somos un equipo apasionado por las carreras de obstáculos
