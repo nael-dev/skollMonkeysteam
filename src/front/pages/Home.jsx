@@ -2,6 +2,7 @@ import React, { useEffect } from "react"
 import rigoImageUrl from "../assets/img/rigo-baby.jpg";
 import useGlobalReducer from "../hooks/useGlobalReducer.jsx";
 import { TeamCarousel } from "../components/teamCarousel.jsx";
+import { NextRace } from "../components/nextRace.jsx";
 
 export const Home = () => {
 
@@ -65,27 +66,21 @@ export const Home = () => {
             </div>
         </section>
 
+        {/* PRÓXIMA CARRERA */ }
 
+        <NextRace />
+        
+        
         {/* CARRUSEL DEL EQUIPO */}
         <section className="team-carousel-section">
-            <h2>Nuestro equipo</h2>
+            <h2>ÚLTIMAS FOTOS</h2>
 
             <TeamCarousel />
         </section>
 
 
         {/* FUTURAS SECCIONES */}
-        <section>
-            Parte 2
-        </section>
-
-        <section>
-            Parte 3
-        </section>
-
-        <section>
-            Parte 4
-        </section>
+   
 
     </div>
 );
