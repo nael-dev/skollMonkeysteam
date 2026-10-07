@@ -17,3 +17,17 @@ class User(db.Model):
             "email": self.email,
             # do not serialize the password, its a security breach
         }
+
+class Team(db.Model):
+    id: Mapped[int] = mapped_column(primary_key=True)
+    name: Mapped[str] = mapped_column(String(120), unique=True, nullable=False)
+    description: Mapped[str] = mapped_column(String(250), nullable=True)
+    records: Mapped[str] = mapped_column(String(250), nullable=True)
+
+    def serialize(self):
+        return {
+            "id": self.id,
+            "name": self.name,
+            "description": self.description,
+            "records": self.records
+        }

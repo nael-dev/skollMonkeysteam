@@ -604,3 +604,123 @@ body {
     padding: 7px 12px;
   }
 }
+
+
+/* TEAM CARD */
+
+.team-card {
+    background: white;
+    border: 3px solid #1c1c1c;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 8px 8px 0 #1c1c1c;
+    transition: all 0.25s ease;
+}
+
+.team-card:hover {
+    transform: translate(-4px, -4px);
+    box-shadow: 12px 12px 0 #1c1c1c;
+}
+
+.team-card-image {
+     width: 100%;
+    height: 380px;
+    background: #e9f7fa;
+    overflow: hidden;
+}
+
+.team-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.team-card:hover .team-card-image img {
+    transform: scale(1.05);
+}
+
+.team-card-content {
+    padding: 1.5rem;
+}
+
+.team-card-content h3 {
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.team-card-divider {
+    width: 60px;
+    height: 5px;
+    background: #1c1c1c;
+    margin: 0.8rem 0 1rem;
+}
+
+.team-card-content p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+
+/*News Card*/
+.news-card {
+    background: white;
+    border: 3px solid #1c1c1c;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 8px 8px 0 #1c1c1c;
+    transition: all 0.25s ease;
+    height: 100%;
+}
+
+.news-card:hover {
+    transform: translate(-4px, -4px);
+    box-shadow: 12px 12px 0 #1c1c1c;
+}
+
+.news-card-video {
+  background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.news-card-video .instagram-media {
+   margin: 0 auto !important;
+    min-width: 0 !important;
+    width: 100% !important;
+    max-width: 540px !important;
+}
+
+.news-card-content {
+    padding: 1.5rem;
+}
+
+.news-card-date {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: 0.65;
+}
+
+.news-card-content h3 {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.news-card-divider {
+    width: 60px;
+    height: 5px;
+    background: #1c1c1c;
+    margin: 0.8rem 0 1rem;
+}
+
+.news-card-content p {
+    margin: 0;
+    line-height: 1.6;
+}
