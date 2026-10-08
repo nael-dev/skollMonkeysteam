@@ -38,7 +38,7 @@ export const Team = () => {
                 <div className="col-12 col-md-6">
                     <TeamCard
                         img={tecnicoImage}
-                        name="Rafa"
+                        name="Rafa Ruiz"
                         role="Siempre crees que no va a llegar, pero siempre aparece. Se mantiene como el buen vino y, aunque siempre dice que ya no da para más, siempre se reinventa."
                     />
                 </div>

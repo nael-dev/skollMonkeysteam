@@ -11,8 +11,8 @@ import { Single } from "./pages/Single";
 import { Demo } from "./pages/Demo";
 import { Team } from "./pages/Team";
 import {Races} from "./pages/Races";
-import { Obstacles } from "./pages/Obstacles";
 import {News} from "./pages/News";
+import {OCR} from "./pages/OCR";
 
 export const router = createBrowserRouter(
     createRoutesFromElements(
@@ -31,8 +31,8 @@ export const router = createBrowserRouter(
         <Route path="/demo" element={<Demo />} />
         <Route path="/team" element={<Team />} />
         <Route path="/races" element={<Races />} />
-        <Route path="/obstacles" element={<Obstacles />} />
         <Route path="/news" element={<News />} />
+        <Route path="/ocr" element={<OCR />} />
       </Route>
     )
 );
