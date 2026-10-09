@@ -1,11 +1,12 @@
 import ObstacleCard from "../components/ObstacleCard";
 
 
-import monkeyBars from "../assets/img/monkey-bars.jpg";
-import ropeClimb from "../assets/img/rope-climb.jpg";
-import wall from "../assets/img/wall.jpg";
-import multiRig from "../assets/img/multi-rig.jpg";
-import carry from "../assets/img/carry.jpg";
+
+const monkeyBars = "https://res.cloudinary.com/dk8i5quxn/image/upload/v1791555833/monkey-bars.jpg.webp";
+const ropeClimb = "https://res.cloudinary.com/dk8i5quxn/image/upload/v1791555829/rope-climb.jpg";
+const wall = "https://res.cloudinary.com/dk8i5quxn/image/upload/v1791555822/wall.webp";
+const multiRig = "https://res.cloudinary.com/dk8i5quxn/image/upload/v1791555825/multi-rig.webp";
+const carry = "https://res.cloudinary.com/dk8i5quxn/image/upload/v1791555831/carry.jpg";
 
 const obstacles = [
     {
