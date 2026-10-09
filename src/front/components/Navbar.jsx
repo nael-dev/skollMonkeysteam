@@ -155,7 +155,7 @@ export const Navbar = () => {
 						<li className="nav-item">
 							<Link
 								className="nav-link nav-link-custom"
-								to="/obstacles"
+								to="/ocr"
 							>
 								Obstáculos
 							</Link>

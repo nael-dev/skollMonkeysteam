@@ -5,10 +5,12 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import team1 from "../assets/img/team-1.jpg";
-import team2 from "../assets/img/team-2.jpg";
-import team3 from "../assets/img/team-3.jpg";
-import team4 from "../assets/img/team-4.jpg";
+const team1 = "https://res.cloudinary.com/dk8i5quxn/image/upload/v1791555862/Salvaje26-5767.jpg";
+const team2 = "https://res.cloudinary.com/dk8i5quxn/image/upload/v1791555861/Salvaje26-2089.jpg";
+const team3 = "https://res.cloudinary.com/dk8i5quxn/image/upload/v1791555859/Salvaje26-2051.jpg";
+const team4 = "https://res.cloudinary.com/dk8i5quxn/image/upload/v1791555857/IMG_2213.jpg";
+
+
 
 export const TeamCarousel = () => {
 

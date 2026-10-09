@@ -1,12 +1,11 @@
 import ObstacleCard from "../components/ObstacleCard";
 
 
-import monkeyBars from "../assets/img/obstacles/monkey-bars.jpg";
-import ropeClimb from "../assets/img/obstacles/rope-climb.jpg";
-import wall from "../assets/img/obstacles/wall.jpg";
-import multiRig from "../assets/img/obstacles/multi-rig.jpg";
-import spear from "../assets/img/obstacles/spear.jpg";
-import carry from "../assets/img/obstacles/carry.jpg";
+import monkeyBars from "../assets/img/monkey-bars.jpg";
+import ropeClimb from "../assets/img/rope-climb.jpg";
+import wall from "../assets/img/wall.jpg";
+import multiRig from "../assets/img/multi-rig.jpg";
+import carry from "../assets/img/carry.jpg";
 
 const obstacles = [
     {
@@ -44,15 +43,6 @@ const obstacles = [
         image: multiRig,
         description:
             "Avanza por diferentes elementos suspendidos sin perder el control."
-    },
-    {
-        number: "05",
-        name: "Spear Throw",
-        type: "Precisión",
-        skills: "Técnica · Coordinación · Precisión",
-        image: spear,
-        description:
-            "La precisión es fundamental para acertar al objetivo en el lanzamiento."
     },
     {
         number: "06",
